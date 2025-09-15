@@ -56,8 +56,3 @@ npm start
 * Server runs on **[http://localhost:5000](http://localhost:5000)** (or the port defined in your server).
 * Client runs on **[http://localhost:3000](http://localhost:3000)**.
 
-
----
-
-👉 Do you want me to also add a **`.gitignore` template** (so `.env`, `node_modules`, etc. won’t get pushed to GitHub)?
-```
