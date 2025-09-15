@@ -1,0 +1,114 @@
+/* client/src/App.css */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter-container {
+  text-align: center;
+  color: #333;
+  padding: 5;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.converter-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.currency-selectors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.swap-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px; /* Aligns with the select boxes */
+  transition: background-color 0.2s;
+}
+
+.swap-button:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  margin-top: 2rem;
+  background: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.result h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.result p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  color: #95a5a6;
+  font-size: 0.9rem;
+}
