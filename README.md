@@ -49,10 +49,5 @@ cd client
 npm start
 ```
 
----
 
-## Notes
-
-* Server runs on **[http://localhost:5000](http://localhost:5000)** (or the port defined in your server).
-* Client runs on **[http://localhost:3000](http://localhost:3000)**.
 
